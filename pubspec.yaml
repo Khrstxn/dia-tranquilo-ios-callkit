@@ -1,0 +1,18 @@
+name: dia_tranquilo_ios_callkit
+description: Native iOS CallKit integration for the Dia Tranquilo Flutter app.
+version: 0.0.1
+homepage: https://github.com/Khrstxn/dia-tranquilo-ios-callkit
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: DiaTranquiloIosCallkitPlugin
