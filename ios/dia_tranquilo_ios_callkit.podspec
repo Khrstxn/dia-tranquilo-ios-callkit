@@ -16,7 +16,7 @@ CallKit and the Dia Tranquilo Call Directory Extension.
     :tag => s.version.to_s
   }
 
-  s.source_files     = 'Classes/**/*'
+  s.source_files = 'dia_tranquilo_ios_callkit/Sources/dia_tranquilo_ios_callkit/**/*'
   s.dependency       'Flutter'
   s.platform         = :ios, '13.4'
   s.swift_version    = '5.0'
